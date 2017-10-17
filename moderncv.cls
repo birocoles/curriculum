@@ -128,6 +128,8 @@
   \hypersetup{
     breaklinks,
     baseurl       = http://,
+    colorlinks    = true,
+    urlcolor      = cyan,
     pdfborder     = 0 0 0,
     pdfpagemode   = UseNone,% do not show thumbnails or bookmarks on opening
     pdfstartpage  = 1,

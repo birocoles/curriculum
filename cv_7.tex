@@ -29,11 +29,14 @@
 \moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
 \usepackage[scale=0.75]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 \setlength{\makecvtitlenamewidth}{5.5cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%\usepackage{hyperref}
+%\usepackage{marvosym}
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
@@ -44,15 +47,23 @@
 
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
-\address{Observat\'{o}rio Nacional}{Rio de Janeiro, Brazil}
+\address{\href{http://www.on.br/index.php/pt-br/}{\Large{Observat\'{o}rio Nacional}}}{Rio de Janeiro, Brazil}
 %\mobile{(000) 111 1111}
 %\phone{(000) 111 1112}
 %\fax{(000) 111 1113}
-\email{vanderlei@on.br, vandscoelho@gmail.com}
-\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
-\extrainfo{additional information}
+% \email{vanderlei@on.br, vandscoelho@gmail.com}
+% \homepage{www.pinga-lab.org/people/oliveira-jr.html}{pinga-lab.org/people/oliveira-jr} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{
+{\large\marvosymbol{66}}
+{\href{mailto:vanderlei@on.br}{\nolinkurl{vanderlei@on.br}}}\\
+{\large\marvosymbol{66}}
+{\href{mailto:vandscoelho@gmail.com}{\nolinkurl{vandscoelho@gmail.com}}}\\
+{\LARGE\marvosymbol{205}}
+{\href{www.pinga-lab.org/people/oliveira-jr.html}{pinga-lab.org/people/oliveira-jr}}\\
+{\LARGE\marvosymbol{205}}
+{\href{http://orcid.org/0000-0002-6338-4086}{orcid.org/0000-0002-6338-4086}}}
 \photo[80pt][0.4pt]{pictures/vanderlei} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-\quote{"A witty and playful quotation" - John Smith}
+%\quote{"A witty and playful quotation" - John Smith}
 
 %----------------------------------------------------------------------------------------
 
@@ -88,13 +99,17 @@
 \makecvtitle % Print the CV title
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
+%	RESEARCH
 %----------------------------------------------------------------------------------------
 
-\section{Education}
+\section{Research}
 
-\cventry{2011--2012}{Masters of Commerce}{The University of California}{Berkeley}{\textit{GPA -- 8.0}}{First Class Honours}  % Arguments not required can be left empty
-\cventry{2007--2010}{Bachelor of Business Studies}{The University of California}{Berkeley}{\textit{GPA -- 7.5}}{Specialized in Commerce}
+\cvitem{}{general description}
+
+\subsection{Current research interests}
+
+\cvitem{Equivalent layer technique}{theoretical and practical aspects related ...}
+
 
 \section{Masters Thesis}
 
