@@ -1,7 +1,7 @@
-%% Driver file to produce cv.bst from merlin.mbs
+%% Driver file to produce cv_papers.bst from merlin.mbs
 %% Generated with makebst, version 4.1 (2003/09/08)
 %% Produced on 2017/10/19 at 17:24
-%% 
+%%
 \input docstrip
 
 \preamble
@@ -422,7 +422,7 @@ End of customized bst file
 %--------------------
 %EDITOR IN COLLECTIONS:
     %: (def) Same as for edited book
-% edby,%: In booktitle, edited by .. 
+% edby,%: In booktitle, edited by ..
 % edby-par,%: In booktitle (edited by ..)
 % edby-parc,%: In booktitle, (edited by ..)
 % edby,edbyx,%: In booktitle, editor ..

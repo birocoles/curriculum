@@ -7,7 +7,7 @@
 %% merlin.mbs  (with options: `ay,nat,seq-yrr,nm-rev,jnrlab,keyxyr,note-yr,num-xser,isbn,issn,doi,xedn,nfss,')
 %% ----------------------------------------
 %% *** reverse year ordered ***
-%% 
+%%
 %% Copyright 1994-2011 Patrick W Daly
  % ===============================================================
  % IMPORTANT NOTICE:
