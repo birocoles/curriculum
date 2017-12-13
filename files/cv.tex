@@ -9,9 +9,7 @@
 \usepackage{geometry}
 	%\textheight=700px                    % Saving trees ;-)
 %\usepackage{url}
-\usepackage[colorlinks=true,
-linkcolor=blue,
-urlcolor=blue]{hyperref}
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue]{hyperref}
 \usepackage{float}
 \usepackage{etaremune}
 \usepackage{wrapfig}
@@ -21,8 +19,6 @@ urlcolor=blue]{hyperref}
 % packages I have added
 \usepackage{marvosym}
 \usepackage[square, numbers]{natbib}
-
-
 
 \frenchspacing              % Better looking spacings after periods
 \pagestyle{empty}           % No pagenumbers/headers/footers
@@ -242,18 +238,17 @@ fields (gravity and magnetic).
 
 %\NewPart{Peer-Reviewed Journal Papers}{( \href{http://orcid.org/0000-0002-6338-4086}{ORCID} )}
 \renewcommand{\refname}{PEER-REVIEWED JOURNAL PAPERS (\href{http://orcid.org/0000-0002-6338-4086}{ORCID})}
-\nocite{*}
-\bibliographystyle{cv}
-\bibliography{cv_papers}
 
-\sepspace
+% list of papers
+\include{papers}
 
-\renewcommand{\refname}{INTERNATIONAL CONFERENCES}
-\nocite{*}
-\bibliographystyle{cv}
-\bibliography{cv_conferences}
+%%% International Conferences
+%%% ------------------------------------------------------------
 
-\sepspace
+\renewcommand{\refname}{LAST PARTICIPATIONS AT INTERNATIONAL CONFERENCES}
+
+% list of conferences
+\include{conferences}
 
 \NewPart{Theses Supervised}{}
 
