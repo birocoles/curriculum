@@ -109,9 +109,9 @@
         % type (MSc or PhD), title portuguese, title english, student, institution, year conclusion
 		\noindent [#1] Title (portuguese): ``#2", Title (english): ``#3", Student: #4, \textit{#5} (#6).}
 
-\newcommand{\Student}[3]{
-        % name, level (MSc or PhD), expected conclusion at
-		\noindent #1, #2, expected #3.}
+\newcommand{\Student}[4]{
+        % name, level (MSc or PhD), main or co supervisor, expected conclusion at
+		\noindent #1, #2, #3 supervisor, expected #4.}
 
 \newcommand{\CourseEntry}[5]{
         % level (Graduate or Undergraduate), title, program name, institution, period
@@ -257,6 +257,8 @@ fields (gravity and magnetic).
 \NewPart{Theses Supervised}{}
 
 \begin{enumerate}
+	
+\item\ThesisEntry{PhD}{Modelagem regional do campo de gravidade utilizando pontos de massa em coordenadas geod{\' e}sicas}{Regional gravity modeling by using point masses in geodetic coordinates}{Kristoffer A. T. Hallam}{Observat\'{o}rio Nacional, Brazil}{2019}
 
 \item\ThesisEntry{MSc}{Invers{\~ a}o gravim{\' e}trica 2D com v{\' i}nculo isost{\' a}tico}{2D gravity inversion with isostatic constraint}{Barbara Marcela S. Bastos}{Observat\'{o}rio Nacional, Brazil}{2018}
 
@@ -282,17 +284,21 @@ fields (gravity and magnetic).
 
 \sepspace
 
-\NewPart{Current graduate students}{}
+\NewPart{Current students}{}
 
 \begin{enumerate}
 
-\item\Student{Kristoffer A. T. Hallam}{PhD}{2019}
+\item\Student{Andre L. A. Reis}{PhD}{main}{2020}
 
-\item\Student{Leonardo B. Vital}{PhD}{2020}
+\item\Student{Leonardo B. Vital}{PhD}{main}{2020}
 
-\item\Student{Andre L. A. Reis}{PhD}{2020}
+\item\Student{Andre D. Arelaro}{MSc}{co-}{2020}
 
-\item\Student{Diego Takahashi}{PhD}{2021}
+\item\Student{Diego Takahashi}{PhD}{main}{2021}
+
+\item\Student{Shayane P. Gonzalez}{PhD}{co-}{2021}
+
+\item\Student{Larissa S. Piauilino}{PhD}{co-}{2022}
 
 \end{enumerate}
 
@@ -302,9 +308,9 @@ fields (gravity and magnetic).
 
 \begin{itemize}
 
-\item\CourseEntry{Graduate}{Potential-field methods}{Graduation Program in Geophysics}{Observat\'{o}rio Nacional, Brazil}{2014 -- present}
+\item\CourseEntry{Graduate}{Potential-field methods}{Graduate Program in Geophysics}{Observat\'{o}rio Nacional, Brazil}{2014 -- present}
 
-\item\CourseEntry{Graduate}{Computational methods applied to Geophysics}{Graduation Program in Geophysics}{Observat\'{o}rio Nacional, Brazil}{2014 -- present}
+\item\CourseEntry{Graduate}{Computational methods applied to Geophysics}{Graduate Program in Geophysics}{Observat\'{o}rio Nacional, Brazil}{2014 -- present}
 
 \end{itemize}
 
@@ -314,11 +320,14 @@ fields (gravity and magnetic).
 
 \begin{itemize}
 
-\item Head of the academic staff of the Graduate Program in Geophysics of the 
+\item Member of the Faculty Staff of the Graduate Program in Geophysics \newline
+Observat\'{o}rio Nacional, 2014 -- present
+
+\item Head of the Graduate Program in Geophysics Committee \newline
 Observat\'{o}rio Nacional, 2017 -- 2018
 
-\item Member of the academic staff of the Graduate Program in Geophysics of the 
-Observat\'{o}rio Nacional, 2014 -- present
+\item Member the Graduate Program in Geophysics Committee \newline
+Observat\'{o}rio Nacional, 2014 -- 2018
 
 \end{itemize}
 
