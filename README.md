@@ -1,7 +1,7 @@
 # Curriculum Vitae
 
 ## [Vanderlei C. Oliveira Jr.](http://www.pinga-lab.org/people/oliveira-jr.html)
-#### *Associate Professor of Geophysics at [Observatório Nacional](http://www.on.br/index.php/pt-br/), Brazil*
+#### *Full Professor of Geophysics at [Observatório Nacional](http://www.on.br/index.php/pt-br/), Brazil*
 
 
 
