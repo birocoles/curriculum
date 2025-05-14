@@ -61,6 +61,10 @@ citecolor=blue
 \newcommand{\ThesisEntry}[9]{
 	% type (MSc or PhD), language, title, language, title, student, institution, year conclusion
 	\noindent \textbf{[#1]} Title (#2): \textit{#3}, Title (#4): \textit{#5}, Author: #6, \textsl{#7} (#8). \sloppy{\textbf{\texttt{doi:}}~ \href{https://doi.org/#9}{\texttt{#9}}}}
+	
+\newcommand{\ThesisEntryTEDE}[9]{
+	% type (MSc or PhD), language, title, language, title, student, institution, year conclusion
+	\noindent \textbf{[#1]} Title (#2): \textit{#3}, Title (#4): \textit{#5}, Author: #6, \textsl{#7} (#8). \sloppy{\textbf{\texttt{url:}}~ \href{http://sistede.on.br:8080/jspui/handle/tede/#9}{\texttt{sistede.on.br:8080/jspui/handle/tede/{#9}}}}}
 
 \newcommand{\Student}[5]{
 	% #1 level (MSc or PhD), #2 main or co supervisor, #3 name, since #4, #5 institution
@@ -270,7 +274,9 @@ fields (gravity and magnetic).
 % command [leftmargin=*], from enumitem package, removes the default indent of itemize
 \begin{enumerate}[leftmargin=*, label=\textbf{(\arabic*)}]
 
-\item\ThesisEntry{PhD}{portuguese}{M{\'e}todo de an{\'a}lise de ambiguidade da dire{\c c}{\~a}o de magnetiza{\c c}{\~a}o remanente e da raz{\~a}o de {K{\"o}enigsberger} em corpos geol{\'o}gicos {3D} magnetizados uniformemente}{english}{Method to investigate the ambiguity of the remanent magnetization direction and {K{\"o}enigsberger} ratio in geological bodies with uniform magnetization}{Shayane P. Gonzalez}{Observat\'{o}rio Nacional, Brazil}{2023}{XXXXX}
+\item\ThesisEntryTEDE{PhD}{portuguese}{Camadas equivalentes r{\'a}pidas para o processamento de dados de campos potenciais}{english}{Fast equivalent layers for potential-field data processing}{Larissa S. Piauilino}{Observat\'{o}rio Nacional, Brazil}{2023}{193}
+
+\item\ThesisEntryTEDE{PhD}{portuguese}{M{\'e}todo de an{\'a}lise de ambiguidade da dire{\c c}{\~a}o de magnetiza{\c c}{\~a}o remanente e da raz{\~a}o de {K{\"o}enigsberger} em corpos geol{\'o}gicos {3D} magnetizados uniformemente}{english}{Method to investigate the ambiguity of the remanent magnetization direction and {K{\"o}enigsberger} ratio in geological bodies with uniform magnetization}{Shayane P. Gonzalez}{Observat\'{o}rio Nacional, Brazil}{2023}{194}
 
 \item\ThesisEntry{MSc}{portuguese}{An{\'a}lise de sensibilidade de aquisi{\c c}{\~a}o gravim{\'e}trica 4D de fundo oce{\^a}nico}{english}{Sensitivity analysis of 4D gravity survey at ocean bottom}{Andr{\'e} D. Arelaro}{Observat\'{o}rio Nacional, Brazil}{2020}{10.6084/m9.figshare.20339034.v1}
 
@@ -289,8 +295,6 @@ fields (gravity and magnetic).
 
 % command [leftmargin=*], from enumitem package, removes the default indent of itemize
 \begin{enumerate}[leftmargin=*, label=\textbf{(\arabic*)}]
-
-	\item\Student{PhD}{co-}{Larissa S. Piauilino}{Jul/2018}{Observat{\'o}rio Nacional, Brazil}
 
 	\item\Student{MSc}{main}{Edson F. Luza}{Mar/2020}{Observat{\'o}rio Nacional, Brazil}	
 	
@@ -311,7 +315,7 @@ fields (gravity and magnetic).
 {\texttt{https://github.com/birocoles/Disciplina-metodos-potenciais}} \\
 \noindent\textsl{Graduate Program in Geophysics, Observat\'{o}rio Nacional, Brazil} \vspace{0.5\baselineskip} \\
 \noindent \textbf{Computational methods applied to Geophysics} \hfill
-\parbox{0.1\textwidth}{\raggedleft 2014--present} \\
+\parbox{0.1\textwidth}{\raggedleft 2014--2025} \\
 \noindent\href{https://github.com/birocoles/Disciplina-metodos-computacionais}
 {\texttt{https://github.com/birocoles/Disciplina-metodos-computacionais}} \\
 \noindent\textsl{Graduate Program in Geophysics, Observat\'{o}rio Nacional, Brazil} \\
@@ -322,7 +326,7 @@ fields (gravity and magnetic).
 
 \medskip
 	
-\noindent Coordinator of the Graduate Program in Geophysics Committee \hfill \parbox{0.1\textwidth}{\raggedright 2022--present} \\
+\noindent Coordinator of the Graduate Program in Geophysics Committee \hfill \parbox{0.1\textwidth}{\raggedright 2022--2025} \\
 \noindent \textsl{Observat\'{o}rio Nacional, Brazil} \vspace{0.5\baselineskip} \\
 \noindent Member of the Graduate Program in Geophysics Committee \hfill \parbox{0.1\textwidth}{\raggedright 2020--2022} \\
 \noindent \textsl{Observat\'{o}rio Nacional, Brazil} \vspace{0.5\baselineskip} \\
